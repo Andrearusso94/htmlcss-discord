@@ -23,11 +23,16 @@
   
   }
   
+  .row-header {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2.5rem;
+  }
   .row {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 2.5rem;
-    
+    margin-top: 10rem;
   }
   
 
@@ -128,7 +133,12 @@
   .col-8 {
     width: calc((100% / 12) * 8);
   }
-
+.secondary{
+  padding-left: 8rem;
+}
+.third{
+  padding-right: 8rem;
+}
   .ultimate{
     background-color: darkgreen;
     width: 80%;
