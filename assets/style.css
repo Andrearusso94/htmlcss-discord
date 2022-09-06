@@ -23,10 +23,11 @@
   
   }
   
-  .row1 {
+  .row {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(53, 103, 235, 1);
+    padding-bottom: 2.5rem;
+    
   }
   
 
@@ -114,22 +115,18 @@
     border-radius: 25px;
     font-size: 1.25rem;
   }
-  .row2 {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 2.5rem;
-    
-  }
+  
   .col-4 {
     width:  calc((100%/12) * 4);
-    background-color: darkgoldenrod;
-    height: 300px;
+    margin-top: 1.5rem;
+    font-size: 2.25rem;
   }
-  
+  .col-4 > p{
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+  }
   .col-8 {
     width: calc((100% / 12) * 8);
-    height: 300px;
-    background-color: cornflowerblue;
   }
 
   .ultimate{
