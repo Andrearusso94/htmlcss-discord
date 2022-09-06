@@ -71,18 +71,49 @@
     border: 2px solid;
   }
   .open-discord{
-    background-color: black;
-    height: 350px;
+    background-image: url(./img/jumbo.png);
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
     padding-top: 2.5rem;
   }
   .presentation{
-    background-color: blue;
-    height: 250px;
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    padding: 10rem;
+    width: 60%;
     margin: 0 auto;
-   
   }
-  
+  h1{
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+  }
+  p{
+    font-size: 1.40rem;
+    padding-bottom: 1rem;
+  }
+  .mac{
+    background-color: bisque;
+    color: black;
+    margin:1rem;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    font-size: 1.25rem;
+  }
+  .browser{
+    background-color:black;
+    color:bisque;
+    margin:1rem;
+    height: 50px;
+    width:300px;
+    border-radius: 25px;
+    font-size: 1.25rem;
+  }
   .row2 {
     display: flex;
     flex-wrap: wrap;
