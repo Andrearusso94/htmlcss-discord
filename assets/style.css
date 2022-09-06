@@ -26,7 +26,7 @@
   .row-header {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 2.5rem;
+   
   }
   .row {
     display: flex;
@@ -140,12 +140,15 @@
   padding-right: 8rem;
 }
   .ultimate{
-    background-color: darkgreen;
+    text-align: center;
     width: 80%;
-    height: 800px;
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 2.5rem;
+    margin-top: 10rem;
+  }
+  .ultimate > h2{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
   }
 
   footer{
