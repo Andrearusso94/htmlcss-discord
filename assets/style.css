@@ -52,7 +52,9 @@
 
   .login{
     border-radius: 80px;
+    border-color: white;
     height: 40px;
+    width: 80px;
     background-color: white;
     margin-top: 1rem;
   }
@@ -73,8 +75,8 @@
   
   .col-2 {
     width: calc((100% / 12) * 2);
-    background-color: aqua;
-    border: 2px solid;
+    margin-top: 1.5rem;
+    
   }
   .open-discord{
     background-image: url(./img/jumbo.png);
@@ -165,12 +167,12 @@
     color: antiquewhite;
     margin-top: 2.5rem;
 }
+
 .end-site{
-    background-color: aqua;
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
     display: flex;
-    
     justify-content: space-between;
+    align-items: flex-end;
 }
